@@ -1,0 +1,57 @@
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    color: #262626;
+    background-color: #FF0080;
+    cursor: url('images/catpawtiny.png'), auto;
+    height: 100%;
+    margin: 0px;
+    padding: 0;
+}
+
+
+#container {
+    text-align: center;
+    width: max;
+    height: 280px;
+    background-image: url('images/bwcat.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #FF0080;
+    padding-top: 10px;
+
+
+
+}
+
+.bold {
+    font-weight: bold;
+    text-align: right;
+    color: white;
+}
+
+.left {
+    float: left;
+    color: white;
+    margin-left: 20px;
+}
+
+.right {
+    float: right;
+    color: white;
+    margin-right: 20px;
+}
+
+#box {
+    width: 150px;
+    height: 150px;
+    background-image: url('images/clearmouse.png');
+    background-repeat: no-repeat;
+    cursor: url('images/catpawtiny.png'), auto;
+    display: none;
+    position: relative;
+}
+
+a {
+  color: #FF0080;
+  text-decoration: none;
+}
